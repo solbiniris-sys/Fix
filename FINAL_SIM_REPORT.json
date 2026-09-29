@@ -1,0 +1,46 @@
+{
+  "all_pass": true,
+  "checks": {
+    "server_syntax": true,
+    "client_syntax": true,
+    "12_day_progression": true,
+    "events": true,
+    "sleep_exists": true,
+    "event_flexible_timing": true,
+    "city_ui": true,
+    "city_handler": true,
+    "sleep_ui": true,
+    "legacy": true,
+    "single_click": true
+  },
+  "sim": {
+    "days_reached": 13,
+    "events_seen": 12,
+    "actions": 84,
+    "final": {
+      "day": 13,
+      "minutes": 420,
+      "energy": 90,
+      "hunger": 88,
+      "house": 88,
+      "animal": 100,
+      "relation": 68,
+      "money": 35,
+      "clues": 12,
+      "done": 12,
+      "flags": []
+    },
+    "tail": [
+      "D11 EVENT",
+      "D11 rest",
+      "D11 SLEEP -> D12",
+      "D12 cook",
+      "D12 eat",
+      "D12 animal",
+      "D12 garden",
+      "D12 EVENT",
+      "D12 clean",
+      "D12 SLEEP -> D13"
+    ]
+  }
+}
