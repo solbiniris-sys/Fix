@@ -1,0 +1,6 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WATERLINE</title><script src="/socket.io/socket.io.js"></script><link rel="stylesheet" href="/style.css"></head><body><div id="final-game"></div>
+<div class="grain"></div><main id="lobby" class="lobby"><div class="logo">WATERLINE</div><div class="tag">THE CITY THAT REMEMBERS</div><div class="lore">도시는 기억한다.<br>사람보다 오래.</div><div class="box"><input id="name" placeholder="플레이어 이름"><div><input id="code" placeholder="초대 코드"><button id="join">합류</button></div><button id="create">새로운 도시 시작</button><small id="err"></small></div><div class="features"><span>1인 탐험</span><span>2인 협동</span><span>장기 스토리</span><span>랜덤 사건</span></div></main>
+<main id="game" class="hidden"><header><div><div class="eyebrow" id="chapter"></div><h1 id="place"></h1><div id="clock"></div></div><div class="objective"><small>CASE</small><b id="objective"></b></div></header>
+<nav><button data-tab="map">지도</button><button data-tab="case">사건 기록</button><button data-tab="people">사람</button><button data-tab="bag">소지품</button><button data-tab="chat">통신</button></nav>
+<div id="view"></div>
+<div class="bottom"><div id="toast"></div><button id="rest">휴식</button></div></main><script src="/app.js"></script></body></html>
